@@ -48,8 +48,18 @@ a {
 }
 
 ul {
-    list-style: none;
     padding-left: 0;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 /* Typography */
@@ -114,4 +124,32 @@ p {
 
 .navbar__menu__item:hover {
     background-color: var(--color-dark-pink);
+}
+
+/* Home */
+#home {
+    background: url('imgs/home-background.png') center/cover no-repeat ;
+    height: 600px;
+    padding: 40px;
+    text-align: center;
+}
+
+.home__title {
+    color: var(--color-white); 
+}
+
+.home__description p {
+    color: var(--color-white); 
+    font-size: var(--font-medium);
+}
+
+
+.home__contact {
+    font-size: var(--font-regular);
+    font-weight: var(--weight-bold);
+    margin-top: 100px;
+    padding: 8px 12px;
+    border: 2px solid var(--color-white);
+    border-radius: var(--size-border-radius);
+    color: var(--color-white);
 }
